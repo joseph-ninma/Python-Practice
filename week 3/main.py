@@ -42,14 +42,14 @@
 #     print("please enter a valid number")
 
 
-count = 5
+# count = 5
 
-while count > 0:
-    print(count)
-    count -= 1
-print("Blast off")
+# while count > 0:
+#     print(count)
+#     count -= 1
+# print("Blast off")
 
-for i in range(5):
-    print(i + '*' + i )
+# for i in range(5):
+#     print(i + '*' + i )
 
 
