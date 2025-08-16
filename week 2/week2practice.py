@@ -5,7 +5,7 @@ print(name, "you are", age ,"years old")
 
 name = str(input( "what is your name: " ).strip()) 
 game = str(input("which game do you like: ").lower()) 
-print (f"wow, {name} your favourite game is {}")
+print (f"wow, {name} your favourite game is {game}")
 
 no_1 = int(input("please write a number: ")) 
 
