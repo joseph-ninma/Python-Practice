@@ -87,7 +87,7 @@ def deleteTask():
             tasks.pop(taskToDelete)
             print(f"Task {taskToDelete} has been removed.")
         else:
-        print(f"Task #{taskToDelete} was not found.")
+            print(f"Task #{taskToDelete} was not found.")
     except:
         print("Invalid input.")
 
@@ -111,7 +111,7 @@ if __name__ == "__main__":
         elif(choice == "2"):
             deleteTask()
         elif(choice == "3"):
-            ListTask()
+            listTask()
         elif(choice == "4"):
             break
         else:
